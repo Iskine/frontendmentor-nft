@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Outfit&display=swap" rel="stylesheet">
+  <title>NFT preview card component</title>
+</head>
+<body>
+  
+<div class="h-screen flex bg-bgblue font-outfit">
+<div class="bg-cardblue m-auto py-6 px-4 rounded-xl">
+
+  <div class="group cursor-pointer">
+    <div class="bg-cyan rounded-lg opacity-100 group-hover:opacity-25"></div>
+    <img class="relative object-contain h-72 w-72 rounded-lg m-auto" src="../images/image-equilibrium.jpg" alt="image-equilibrium"> 
+    <img class="absolute m-auto inset-x-0 top-56 opacity-0 group-hover:opacity-100" src="../images/icon-view.svg" alt="viewicon">
+  </div>
+
+    <p class="text-white my-4 text-lg font-semibold hover:text-cyan cursor-pointer">Equilibrium #3429</p> 
+    <p class="text-softblue font-extralight text-normal">Our Equilibrium collection promotes</p>
+    <p class="text-softblue font-extralight text-normal">balance and calm.</p>
+
+    <div class="my-4"> </div>
+
+ 
+  <span class="text-xs font-light absolute">
+    <img class="relative inline" src="../images/icon-ethereum.svg" alt="diamond">
+    <div class="relative inline mr-0.5"> </div>
+    <p class="relative inline text-cyan mr-32 py-4">0.041 ETH</p> 
+  
+        <img class="inline" src="../images/icon-clock.svg" alt="clock">
+        <div class="inline mr-1.5"> </div>
+        <p class="inline relative text-softblue tracking-wide">3 days left</p>
+
+  </span>
+  <br>
+   
+    <div class="my-2"> </div>
+    <!-- up down space -->
+    <div class="h-px bg-softblue font-light opacity-25"></div> 
+    <!-- line -->
+    <div class="my-4"> </div>
+    <!-- up down space -->
+  
+  <span class="text-softblue font-light"> 
+    <p class="inline">Creation of</p>
+    <p class="inline text-white hover:text-cyan cursor-pointer"> Jules Wyvern</p>
+  </span>
+
+</div>
+</div>
+</body>
+</html>
